@@ -85,6 +85,20 @@ article.syllabus h1, artile.syllabus h2{
 
 }
 
+article.syllabus ol{
+   list-style-type: upper-roman;
+
+}
+
+article.syllabus ol ol{
+   list-style-type: upper-alpha;
+}
+
+
+article.syllabus ol ol ol{
+   list-style-type: decimal;
+}
+
 /* Aside and Blockquote Styles */
 
 
@@ -113,7 +127,23 @@ nav>ul {
 
 /* List Styles */
 
+article#about_tss ul li:nth-child(1){
+   list-style-image: url('runicon.png');
+     list-style-position: inside;
+}
 
+
+article#about_tss ul li:nth-child(2){
+   list-style-image: url('bikeicon.png');
+   list-style-position: inside;
+}
+
+
+
+article#about_tss ul li:nth-child(3){
+   list-style-image: url('swimicon.png');
+   list-style-position: inside;
+}
 
 
 
