@@ -104,6 +104,7 @@ article.syllabus ol ol ol{
 
 aside blockquote{
    color: rgb(232, 165, 116);
+   margin: 20px 5px ;
 
 }
 aside{
@@ -121,6 +122,10 @@ nav{
 nav>ul {
    line-height: 2em;
    
+}
+
+nav > ul >li.newgroup{
+   margin-top: 20px;
 }
 
 
